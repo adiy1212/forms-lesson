@@ -1,0 +1,86 @@
+/*bodey design*/
+body{
+	direction:rtl;
+	text-align:right;
+	background-image:url("http://download.1wallpaper.net/20150528/light-line-form-3840x2400.jpg");
+	background-repeat:repeat;
+}
+
+/*headline design*/ 
+h1{
+	position:relative;
+	top:23px;
+	font-family:Tahmoa;
+	font-size: 48px;
+	max-width:300px;
+	margin:0 auto;
+	color:#DF0101;
+	text-decoration:underline;
+	
+	
+}
+
+/* menu design*/
+nav{
+	position:relative;
+	top:20px;
+	clear:both;
+	padding:0px;
+	width:800px;
+	margin:10px;
+}
+
+nav ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	position:relative;
+	display:block;
+}
+nav ul li{
+	float:right;
+	list-style:none;
+	background-color: white;
+	margin-left:10px;
+	
+}
+nav ul li a{
+	font-size: 20px;
+	padding:0 20px 0 20px;
+}
+
+nav ul ul{
+	display: none;
+	position:absolute;
+	padding-top:5px;
+}
+nav ul li:hover>ul{
+	display:list-item;
+}
+
+nav ul ul li{
+	width:100px;
+	display:block;
+	float:none;
+	font-size:12px;
+	padding-top:5px;
+	margin-top:5px;
+	border: 1px solid gray;
+	background-color: white;
+}
+
+/*link design*/
+a{
+	text-decoration: none;
+	color:#A4A4A4;
+}
+nav ul ul li a{
+	font-size:12px;
+	color: blue;
+	text-align: center;
+	
+}
+
+
+
+

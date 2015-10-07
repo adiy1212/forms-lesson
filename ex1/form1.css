@@ -1,0 +1,32 @@
+body{
+	direction:rtl;
+	background-image: url("http://download.1wallpaper.net/20150528/light-line-form-1024x1024.jpg");
+}
+div#logo{
+	float: left;
+	height:100px;
+	overflow:auto;
+}
+img#logim{
+	height: 100px;
+	width:100px;
+}
+/* nav bar design */
+nav{
+	margin: 5px;
+	
+}
+/* sign up design */
+form{
+	float:right;
+	display: block;
+	width: 200px;
+	border: 1px solid blue;
+}
+input{
+	margin: 5px;
+	direction:ltr !important;
+}
+span{
+	color:#DF0101;
+}
