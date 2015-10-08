@@ -1,0 +1,101 @@
+body{
+	direction:rtl;
+	text-align: right;
+		
+
+	background-image: url("http://blu-alliance.com/wp-content/uploads/2013/10/background-world-map-white.jpg");
+	/*background-repeat:repeat; */
+}
+
+/* h1 design*/
+h1{
+	position:relative;
+	margin: 0 auto;
+	width:300px;
+	text-align: center;
+	color:#DF0101;
+	text-decoration:underline;
+	
+}
+/* logo design*/
+legend{
+	margin:0;
+	padding:0;
+	text-decoration:underline;
+	font-family: cursive;
+}
+div#logo{
+	position:absolute;
+	left: 5px;
+	float: left;
+	height:100px;
+	overflow:hidden;
+	display:block;
+}
+img#logim{
+	height: 100px;
+	width:100px;
+}
+span{
+	color:#DF0101;
+}
+
+/* first name form */
+form#nameadress{
+	display:block;
+	position:relative;
+	width: 200px;
+	border: 1px solid #DF0101;
+	padding: 5px;
+	margin-top: 20px;
+	margin-left:0;
+}
+input#firstname,input#address{
+	display:block;
+}
+
+/* details form */
+/*form#details{
+	
+	margin-right: 100px;	
+}*/
+
+input.formline{
+	display: block;
+	margin:8px;
+	
+}
+input#age,#Bywho,#hobbies,div.status{
+	display:block;
+	
+}
+
+
+/*footer design*/
+footer{
+	position:relative;
+	bottom: 10px;
+	margin: 0 auto;
+	border-top: 1px solid #DF0101;
+	text-align: center;
+}
+/* sub & reset buttons */
+button{
+	
+	
+	margin-top: 50px;
+	margin-bottom: 40px;
+	border: 1px solid #DF0101;
+	position: relative;
+	bottom: 30px;
+	right:540px;
+	
+}
+button.first{
+	position:static;
+	margin:8px;
+}
+
+
+
+

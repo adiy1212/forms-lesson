@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>form3</title>
+		<meta name="description" content="">
+		<meta name="author" content="Adiel">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="stylesheet" href="form3.css" />
+		<link rel="stylesheet" href="form3nav.css" />
+		
+		
+	</head>
+
+	<body>
+		<div>
+			<!--Logo-->
+			<header>
+				<div id="logo">
+					<span>F</span>o<span>R</span>m<span>E</span>x <img id="logim" src="http://static1.squarespace.com/static/53557b6fe4b0e846eb402d55/t/535aa896e4b0d3a92597056c/1398450349024/form+image.png" />
+				</div>
+				<h1>form lesson - ex3</h1>
+			</header>
+			
+			<!--menu-->
+			<nav>
+				<ul>
+				<li><a href="dropDownMenu.html">דף הבית</a></li>
+				<li><a href="dropDownMenu.html">אודות</a></li>
+				<li id="lastitem"><a href="form3.html">צור קשר</a></li>
+				</ul>
+			</nav>
+			<!--first name form-->
+			<form id="nameadress">
+				<label for="firstname">שם פרטי</label> 
+				<input id="firstname" type="text" placeholder="enter your name" required name="must" maxlength="30">
+				<label for="address">כתובת</label>
+				<input id="address" type="text" placeholder="enter your surname">
+				<button class="first" type="submit">
+					שלח 
+				</button>
+				<button class="first" type="reset">איפוס</button>
+			</form>
+			<form id="details">
+			<!--email form-->
+			<h2>שלב 1 </h2>
+
+				<div class="formline">
+					<input class="formline" type="email" placeholder="דואר אלקטרוני" required name="must" maxlength="30" />
+					<input  class="formline" type="password" placeholder="סיסמא" required name="must"/>
+					<input class="formline" type="password" placeholder="סיסמא ( חזור שנית)" required name="must" />
+				</div>
+				<hr>
+			<!-- hobby form -->
+			<h2>שלב 2</h2>
+				<div class="formline">
+					<label for="age">גיל</label>
+					<input id="age" type="number" min="1" max="120">
+					<div class="status">
+					<label for="vachelor"> רווק </label>
+					<input id="vachelor" name="status" type="radio">
+					<label for="married">נשוי </label>
+					<input id="married" name="status" type="radio" />
+					<label for="devorced">גרוש </label>
+					<input id="devorced" name="status" type="radio" />
+					<label id="other">אחר </label>
+					<input id "other" name="status" type="radio" />
+					</div>	
+					<label for="hobbies">תחביבים</label>
+					<select id="hobbies">
+
+						<optgroup >
+							<option> ספורט</option>
+							<option> ריקוד</option>
+							<option> מוזיקה</option>
+							<option> טבע</option>
+							<option> צפרות</option>
+							<option> ציור</option>
+							<option> פיסול</option>
+							<option> דיג</option>
+							<option> צילום</option>
+							<option> תפירה</option>
+						</optgroup>
+					</select>
+					<label for="Bywho"> דרך מי נרשמת לאתר </label>
+					<select id="Bywho" >
+
+						<optgroup >
+							<option> אתר החברה</option>
+							<option> All jobs</option>
+							<option> עיתון</option>
+							<option> טלוויזיה</option>
+							<option> רדיו</option>
+							<option> פייסבוק</option>
+							<option> חבר</option>
+							<option> אחר</option>
+						</optgroup>
+					</select>
+
+				</div>
+				<hr>
+				<!--stage 3-->
+				<h2>שלב 3 </h2>
+				<div class="formline">
+				<label>תמונת פרופיל</label>
+				<input type="file" /><br>
+				<label>מי אני ?</label> 
+				<br>
+				<textarea cols="100" rows="10" placeholder="רשום מס' משפטים על עצמך"></textarea>
+				</div>
+				<hr>
+
+				<button type="submit">
+					שלח טופס
+				</button>
+				<button type="reset">
+					איפוס השדות
+				</button>
+			</form>
+			
+			<footer>
+
+				&copy; Copyright  by Adiel
+
+			</footer>
+		</div>
+	</body>
+</html>

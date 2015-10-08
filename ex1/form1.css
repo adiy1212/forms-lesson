@@ -5,7 +5,7 @@ body{
 div#logo{
 	float: left;
 	height:100px;
-	overflow:auto;
+	overflow:none;
 }
 img#logim{
 	height: 100px;

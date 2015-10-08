@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>form2</title>
+		<meta name="description" content="">
+		<meta name="author" content="Adiel">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="stylesheet" href="form2.css" />
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<div id="logo">
+					<span>F</span>o<span>R</span>m<span>E</span>x <img id="logim" src="http://static1.squarespace.com/static/53557b6fe4b0e846eb402d55/t/535aa896e4b0d3a92597056c/1398450349024/form+image.png" />
+				</div>
+				<h1>form lesson - ex2</h1>
+			</header>
+
+			<nav>
+
+				<a href="/">Home</a>
+				<a href="/contact">Contact</a>
+
+			</nav>
+
+			<form>
+				<legend> אנא מלא את הטופס הבא : </legend>
+				<h2>שלב 1 </h2>
+
+				<div class="formline">
+					<input type="email" placeholder="דואר אלקטרוני" />
+					<input type="password" placeholder="סיסמא"/>
+					<input type="password" placeholder="סיסמא ( חזור שנית)"/>
+				</div>
+
+				<hr>
+				
+				<h2>שלב 2</h2>
+				<div class="formline">
+					<label>גיל</label>
+					<input type="number" min="1" max="120">
+						
+					<label> רווק </label>
+					<input name="status" type="radio">
+					<label>נשוי </label>
+					<input name="status" type="radio" />
+					<label>גרוש </label>
+					<input name="status" type="radio" />
+					<label>אחר </label>
+					<input name="status" type="radio" />
+
+					<label>תחביבים</label>
+					<select >
+
+						<optgroup >
+							<option> ספורט</option>
+							<option> ריקוד</option>
+							<option> מוזיקה</option>
+							<option> טבע</option>
+							<option> צפרות</option>
+							<option> ציור</option>
+							<option> פיסול</option>
+							<option> דיג</option>
+							<option> צילום</option>
+							<option> תפירה</option>
+						</optgroup>
+					</select>
+					<label> דרך מי נרשמת לאתר </label>
+					<select >
+
+						<optgroup >
+							<option> אתר החברה</option>
+							<option> All jobs</option>
+							<option> עיתון</option>
+							<option> טלוויזיה</option>
+							<option> רדיו</option>
+							<option> פייסבוק</option>
+							<option> חבר</option>
+							<option> אחר</option>
+						</optgroup>
+					</select>
+
+				</div>
+				<hr>
+				<h2>שלב 3 </h2>
+				<div class="formline">
+				<label>תמונת פרופיל</label>
+				<input type="file" /><br>
+				<label>מי אני ?</label> 
+				<br>
+				<textarea cols="100" rows="10" placeholder="רשום מס' משפטים על עצמך"></textarea>
+				</div>
+				<hr>
+
+				<button type="submit">
+					שלח טופס
+				</button>
+				<button type="reset">
+					איפוס השדות
+				</button>
+			</form>
+
+			<footer>
+
+				&copy; Copyright  by Adiel
+
+			</footer>
+		</div>
+	</body>
+</html>

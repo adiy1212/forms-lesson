@@ -1,0 +1,21 @@
+ul{
+	text-decoration:none;
+	border: 1px solid #808080;
+	width:225px;
+	background-color: #A4A4A4;
+	padding:0;
+}
+ul li{
+	display: inline;
+	margin: 14px;
+	border-left: 1px solid white;
+	padding-left: 15px;
+	margin-left:0;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+}
+ li#lastitem{
+ 	border-left:none;
+ }
